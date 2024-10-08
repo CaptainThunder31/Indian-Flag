@@ -1,0 +1,79 @@
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: white;
+    }
+
+    .flag {
+      width: 300px;
+      height: 200px;
+      position: absolute;
+      border: 1px solid black;
+      margin-top:-340px;
+      border-radius:10px;
+      overflow:hidden ;
+    }
+
+    .flag .top {
+      background-color: #FF9933;
+      height: 33.33%;
+    }
+
+    .flag .middle {
+      background-color: #FFFFFF;
+      height: 33.33%;
+      position: relative;
+    }
+
+    .flag .bottom {
+      background-color: #138808;
+      height: 33.33%;
+    }
+
+    .chakra {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      border: 2px solid #000080;
+      display: grid;
+      place-items: center;
+    }
+
+    .chakra .spoke {
+      position: absolute;
+      background-color: #000080;
+      width: 1px;
+      height: 20px;
+      transform-origin: bottom center;
+      transform: rotate(0deg);
+      opacity: 0;
+      margin-top: -20px;
+    }
+
+h2{
+font-family:cursive;
+}
+
+#yoo{
+    position:absolute ;
+    text-align:center ;
+    width:80%;
+    margin-top:50px;
+    font-family:cursive;
+}
+
+.bubble{
+    width:200px;
+    height:200px;
+    background:red;
+    position:absolute;
+    border-radius:50%;
+    opacity:0.06;
+}
